@@ -8,26 +8,46 @@ Cimoc 漫画 App 的图源订阅文件 `sourceBaseUrl.json`。
 
 ## 导入地址
 
-### 推荐：精选可用版（47 个源，逐个验证过能打开漫画）
+> **如果你遇到"导入失败"，请先用下面这两个「保真版」**——它们在 byte 级别保持原版格式，
+> 且不删除任何内部字段。
+
+### 保真全量版（155 源，零删除，只替换了失效域名）
 
 ```
-https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.verified.json
+https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.urlfix.json
 ```
 
-### 覆盖更广的修复版（141 个源，含部分未逐个验证的）
+### 保真精选版（47 源，字段完整，逐个验证过能出漫画内容）
 
 ```
-https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.json
+https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.verified.safe.json
 ```
 
-上面两个走的是 jsDelivr 镜像，国内通常可直接访问。若 jsDelivr 也不通，
-把前缀换成 raw 试试：
+### 其他版本（覆盖不同取舍）
 
-```
-https://raw.githubusercontent.com/1074655144/cimoc-source/main/sourceBaseUrl.verified.json
-```
+| 文件 | 图源数 | 说明 |
+| --- | --- | --- |
+| `sourceBaseUrl.full.json` | 155 | 换域名但不删条目/字段 |
+| `sourceBaseUrl.json` | 141 | 额外删了 14 个失效图源与 16 个图片服务器字段 |
+| `sourceBaseUrl.verified.json` | 47 | 早期精选版（有删字段，兼容性未知） |
+
+把后缀换成对应文件名即可。走 jsDelivr 镜像国内通常可达；
+若不通，把前缀换成 `https://raw.githubusercontent.com/1074655144/cimoc-source/main/`。
 
 仓库地址：https://github.com/1074655144/cimoc-source
+
+## 为什么会有「保真版」
+
+早期版本除了替换失效域名，还**删除了 16 个内部字段**（`serverUrl`、`imgServerUrl1/2` 等，
+它们指向已失效的图片 CDN）。事后判断这一步风险很高：Cimoc 在解析图源节点时，如果用
+`getString("serverUrl")` 而不是 `optString()` 取值，**缺字段会直接抛异常并中断整个导入**，
+表现为「怎么都导不进去」——而不是仅仅那一个源用不了。
+
+删除整条图源只是遍历时少一个 key，相对安全；删除节点内部字段则可能是致命的。
+
+所以「保真版」的做法是：**一个字段都不删**，直接在原版 JSON 文本上做字符串替换，
+除 URL 字面量外其余字节与原版保持一致。已失效的图片 CDN 保留原样即可——
+图源本身能列出章节，图片加载不出来是另一回事，不会让 App 崩。
 
 ## 该导入哪个
 
