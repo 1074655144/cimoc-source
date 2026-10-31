@@ -17,11 +17,14 @@ Cimoc 漫画 App 的图源订阅文件 `sourceBaseUrl.json`。
 https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.urlfix.json
 ```
 
-### 保真精选版（47 源，字段完整，逐个验证过能出漫画内容）
+### 保真精选版 v2（47 源，字段完整，逐个验证过能出漫画内容）
 
 ```
-https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.verified.safe.json
+https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.verified.v2.json
 ```
+
+> 这一版是从上面的保真全量版里**逐字节切片**提取出来的，排版与原版完全一致。
+> 早期用 `json.dumps` 重排过的 `verified.safe.json` 实测导入失败，已废弃。
 
 ### 其他版本（覆盖不同取舍）
 
