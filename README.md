@@ -8,18 +8,19 @@ Cimoc 漫画 App 的图源订阅文件 `sourceBaseUrl.json`。
 
 ## 导入地址
 
-仓库推送后，在 Cimoc 的「导入图源」中填入（把 `<用户名>` 换成实际 GitHub 用户名）：
+在 Cimoc 的「导入图源」中填入以下任一地址：
 
 ```
-https://raw.githubusercontent.com/<用户名>/cimoc-source/main/sourceBaseUrl.json
+https://raw.githubusercontent.com/1074655144/cimoc-source/main/sourceBaseUrl.json
 ```
 
-如果 GitHub raw 访问不畅，可用国内镜像前缀，例如：
+如果 GitHub raw 访问不畅，改用 jsDelivr 镜像：
 
 ```
-https://raw.fastgit.org/<用户名>/cimoc-source/main/sourceBaseUrl.json
-https://cdn.jsdelivr.net/gh/<用户名>/cimoc-source@main/sourceBaseUrl.json
+https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.json
 ```
+
+仓库地址：https://github.com/1074655144/cimoc-source
 
 ## 文件说明
 
