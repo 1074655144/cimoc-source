@@ -1,0 +1,848 @@
+[
+ {
+  "id": "GUILUOLIMANHUA",
+  "status": "可疑",
+  "url": "http://m.ymgjmh.com",
+  "note": "有内容但无漫画特征(31406字节) / 复核:无漫画特征(31406字节)"
+ },
+ {
+  "id": "BILIMANHUA",
+  "status": "可用",
+  "url": "https://www.bilimanga.net",
+  "note": "漫画特征[連載,國漫] 链接0"
+ },
+ {
+  "id": "MYCOMIC",
+  "status": "不可用",
+  "url": "https://mycomic.com",
+  "note": "HTTP 403 / 无响应"
+ },
+ {
+  "id": "DUMANWU",
+  "status": "可用",
+  "url": "http://dumanwu1.com",
+  "note": "漫画特征[漫画] 链接0"
+ },
+ {
+  "id": "DUMANWUORG",
+  "status": "可用",
+  "url": "https://www.dumanwu.org",
+  "note": "漫画特征[漫画,韩漫] 链接159"
+ },
+ {
+  "id": "QIMANHUA",
+  "status": "不可用",
+  "url": "https://www.qimanwu.org",
+  "note": "HTTP 0 / 无响应  [已换新域名]"
+ },
+ {
+  "id": "TTKANMANHUA",
+  "status": "可用",
+  "url": "https://www.ttkmh.com",
+  "note": "漫画特征[漫画,manhua] 链接40"
+ },
+ {
+  "id": "YYMANHUA",
+  "status": "可用",
+  "url": "https://www.yymanhua.com",
+  "note": "漫画特征[日漫,manga] 链接5"
+ },
+ {
+  "id": "MANHUAYU",
+  "status": "可用",
+  "url": "https://www.manhuayu88.com",
+  "note": "漫画特征[漫画,动漫] 链接0"
+ },
+ {
+  "id": "RUMANHUA",
+  "status": "可用",
+  "url": "http://rumanhua2.com",
+  "note": "漫画特征[漫画,manhua] 链接0"
+ },
+ {
+  "id": "HAODUOMAN",
+  "status": "可用",
+  "url": "https://www.haoduoman.com",
+  "note": "漫画特征[漫画,动漫] 链接172"
+ },
+ {
+  "id": "MANHUA36",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "DASHUMANHUA",
+  "status": "可用",
+  "url": "https://www.dashumanhua.com",
+  "note": "漫画特征[漫画,连载] 链接157"
+ },
+ {
+  "id": "YOUMANHUAWU",
+  "status": "可用",
+  "url": "https://umh5.com",
+  "note": "漫画特征[漫画,动漫] 链接0"
+ },
+ {
+  "id": "BIQUGE",
+  "status": "不可用",
+  "url": "https://www.biqu8.xyz",
+  "note": "HTTP 0 / 无响应"
+ },
+ {
+  "id": "MANMANMANHUA",
+  "status": "可用",
+  "url": "https://www.manmanapp.com",
+  "note": "漫画特征[漫画,动漫] 链接146"
+ },
+ {
+  "id": "KUMANXIONGV2",
+  "status": "可疑",
+  "url": "http://www.ziyuanxue.cn/Cimoc/hmx/api/queryHmxComic",
+  "note": "响应过短(58)，可能JS跳转或反爬 / 复核:无漫画特征(58字节)"
+ },
+ {
+  "id": "KUMANXIONG",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "MANHUA90",
+  "status": "不可用",
+  "url": "https://www.90mh.org",
+  "note": "HTTP 0 / 无响应"
+ },
+ {
+  "id": "KOMIIC",
+  "status": "不可用",
+  "url": "https://komiic.com",
+  "note": "HTTP 0 / 无响应"
+ },
+ {
+  "id": "BAOZIV2",
+  "status": "可用",
+  "url": "https://m.baozimh.one",
+  "note": "漫画特征[章節,國漫] 链接60"
+ },
+ {
+  "id": "SUMANKU",
+  "status": "可疑",
+  "url": "http://www.sumanku.com",
+  "note": "有内容但无漫画特征(5544字节) / 复核:无漫画特征(5544字节)"
+ },
+ {
+  "id": "GODAMH",
+  "status": "可用",
+  "url": "https://m.g-mh.org",
+  "note": "漫画特征[漫画,连载] 链接51"
+ },
+ {
+  "id": "GoDaMH",
+  "status": "不可用",
+  "url": "https://cn.godamanga.art",
+  "note": "变质为: urldance  [已换新域名]"
+ },
+ {
+  "id": "WNACG",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "BODONGMH",
+  "status": "可用",
+  "url": "https://ikmmh.com",
+  "note": "漫画特征[漫画,在线阅读] 链接17"
+ },
+ {
+  "id": "MH160CC",
+  "status": "可用",
+  "url": "https://www.mh160mh.com",
+  "note": "漫画特征[漫画,韩漫] 链接0"
+ },
+ {
+  "id": "MANHUAWU",
+  "status": "可用",
+  "url": "https://www.mhua5.com",
+  "note": "漫画特征[漫画,动漫] 链接0"
+ },
+ {
+  "id": "BOLEMH",
+  "status": "可用",
+  "url": "https://bbboy.cc",
+  "note": "漫画特征[漫画,韩漫] 链接0"
+ },
+ {
+  "id": "MKZHAN",
+  "status": "可疑",
+  "url": "https://comic.mkzhan.com",
+  "note": "响应过短(35)，可能JS跳转或反爬 / 复核:无漫画特征(35字节)"
+ },
+ {
+  "id": "XMANHUA",
+  "status": "不可用",
+  "url": "https://xmanhua.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "VOMIC",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "VOMIC2",
+  "status": "可用",
+  "url": "http://www.vomicmh.com",
+  "note": "漫画特征[漫画,连载] 链接0"
+ },
+ {
+  "id": "TUHAOMHV2",
+  "status": "可疑",
+  "url": "https://www.toho123.com",
+  "note": "响应过短(477)，可能JS跳转或反爬 / 复核:无漫画特征(477字节)"
+ },
+ {
+  "id": "LAIMH",
+  "status": "可用",
+  "url": "https://www.laimanhua88.com",
+  "note": "漫画特征[manhua] 链接0"
+ },
+ {
+  "id": "GUOGUOMH",
+  "status": "可疑",
+  "url": "https://d9zfb53b.lstool.xyz",
+  "note": "响应过短(77)，可能JS跳转或反爬 / 复核:无漫画特征(77字节)"
+ },
+ {
+  "id": "KUMANWU",
+  "status": "可疑",
+  "url": "http://www.kumwu2.com",
+  "note": "有内容但无漫画特征(2366字节) / 复核:无漫画特征(2366字节)"
+ },
+ {
+  "id": "YOUDM",
+  "status": "可疑",
+  "url": "https://www.udm123.com",
+  "note": "有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)"
+ },
+ {
+  "id": "SHOUJIMH",
+  "status": "不可用",
+  "url": "http://www.gmanhua.com",
+  "note": "变质为: 赌博"
+ },
+ {
+  "id": "YEMANMH",
+  "status": "不可用",
+  "url": "https://m.mhkami.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "XINXINMH",
+  "status": "可疑",
+  "url": "https://so.77mh.nl",
+  "note": "有内容但无漫画特征(5760字节) / 复核:无漫画特征(5760字节)"
+ },
+ {
+  "id": "HAOMAN8",
+  "status": "可用",
+  "url": "https://m.zaimanhua.com",
+  "note": "漫画特征[漫画,动漫] 链接0"
+ },
+ {
+  "id": "HAOMAN6",
+  "status": "可用",
+  "url": "https://www.manben.com",
+  "note": "漫画特征[漫画,动漫] 链接163"
+ },
+ {
+  "id": "MITUI",
+  "status": "不可用",
+  "url": "https://www.imitui.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "CHUIXUEMH",
+  "status": "不可用",
+  "url": "http://www.chuixue.net",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "QIMIAO",
+  "status": "可疑",
+  "url": "https://www.qimiaomh.com",
+  "note": "有内容但无漫画特征(5548字节) / 复核:无漫画特征(5548字节)"
+ },
+ {
+  "id": "PUFEIMH",
+  "status": "可用",
+  "url": "http://m.pufei.cc",
+  "note": "漫画特征[漫画,全集] 链接0"
+ },
+ {
+  "id": "BAINIANMH",
+  "status": "可疑",
+  "url": "https://m.bnman.net",
+  "note": "响应过短(473)，可能JS跳转或反爬 / 复核:无漫画特征(473字节)"
+ },
+ {
+  "id": "QIXIMH",
+  "status": "可疑",
+  "url": "http://qiximh4.com",
+  "note": "响应过短(472)，可能JS跳转或反爬 / 复核:无漫画特征(472字节)"
+ },
+ {
+  "id": "BMG",
+  "status": "可用",
+  "url": "https://www.liumanhua.com",
+  "note": "漫画特征[漫画,comic] 链接0"
+ },
+ {
+  "id": "ANIMX2",
+  "status": "不可用",
+  "url": "https://www.2animx.com",
+  "note": "HTTP 403 / 无响应"
+ },
+ {
+  "id": "BAINIAN",
+  "status": "可疑",
+  "url": "https://m.bnman.net",
+  "note": "响应过短(473)，可能JS跳转或反爬 / 复核:无漫画特征(473字节)"
+ },
+ {
+  "id": "CARTOONMAD",
+  "status": "可疑",
+  "url": "https://www.cartoonmad.com",
+  "note": "响应过短(114)，可能JS跳转或反爬 / 复核:HTTP 0 无内容"
+ },
+ {
+  "id": "CCTUKU",
+  "status": "可用",
+  "url": "https://www.tuku.cc",
+  "note": "漫画特征[漫画,连载] 链接172"
+ },
+ {
+  "id": "CHUIXUE",
+  "status": "不可用",
+  "url": "http://www.chuixue.net",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "CHUIXUESERVER",
+  "status": "不可用",
+  "url": "https://chuixue2.xiluweb.com/",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "COPYMH",
+  "status": "不可用",
+  "url": "https://www.copy20.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "COPYMHSERVER",
+  "status": "不可用",
+  "url": "https://www.copy20.com/api/kb/web/searchbg/comics",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "DM5",
+  "status": "可用",
+  "url": "https://m.dm5.com",
+  "note": "漫画特征[漫画,动漫] 链接115"
+ },
+ {
+  "id": "DMZJ",
+  "status": "不可用",
+  "url": "http://m.dmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "DMZJSEARCH",
+  "status": "不可用",
+  "url": "http://s.acg.dmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "DMZJSERVER",
+  "status": "不可用",
+  "url": "http://v3api.dmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "DMZJFIX",
+  "status": "可用",
+  "url": "https://www.wmh1234.com",
+  "note": "漫画特征[漫画,动漫] 链接22"
+ },
+ {
+  "id": "DMZJFIXSERVER",
+  "status": "不可用",
+  "url": "http://api.dmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "DMZJV2",
+  "status": "不可用",
+  "url": "https://m.dmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "DMZJV2SERVER",
+  "status": "不可用",
+  "url": "https://v3api.idmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "EHENTAI",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "EHENTAISERVER1",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "EHENTAISERVER2",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "EHENTAIINFOCOVER",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "GUFENG",
+  "status": "可疑",
+  "url": "https://www.gufengmh9.com",
+  "note": "响应过短(278)，可能JS跳转或反爬 / 复核:无漫画特征(278字节)"
+ },
+ {
+  "id": "HHXXEE",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "HOTMANGA",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "HOTMANGASERVER",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "IKANMAN",
+  "status": "可用",
+  "url": "https://www.manhuagui.cc",
+  "note": "漫画特征[漫画,动漫] 链接42"
+ },
+ {
+  "id": "IKANMANTW",
+  "status": "不可用",
+  "url": "https://tw.manhuagui.com",
+  "note": "HTTP 502 / 无响应  [已换新域名]"
+ },
+ {
+  "id": "IKANMANSERVER",
+  "status": "不可用",
+  "url": "https://i.hamreus.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "JMTT",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "BASEURLHLV2",
+  "status": "可疑",
+  "url": "PyhLDL/o0X0uZzEBUQQsjNDF3D+J6d33YRxE1rMnpuw=",
+  "note": ""
+ },
+ {
+  "id": "BASEURLJMV2",
+  "status": "可疑",
+  "url": "LpwHMKgVX8quodKDHQMzfoqqDCYkBUDAFhDFDN3Jg+s=",
+  "note": ""
+ },
+ {
+  "id": "MANGABZ",
+  "status": "不可用",
+  "url": "http://mangabz.com/",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "MANGAKAKALOT",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "MANGANEL",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "MANHUADB",
+  "status": "可用",
+  "url": "https://www.manhua666.cc",
+  "note": "漫画特征[漫画,动漫] 链接0"
+ },
+ {
+  "id": "MANHUATAI",
+  "status": "可用",
+  "url": "https://www.kanman.com",
+  "note": "漫画特征[漫画,连载] 链接1"
+ },
+ {
+  "id": "MANHUATAIPIC",
+  "status": "可用",
+  "url": "https://m.kanman.com",
+  "note": "漫画特征[漫画,manhua] 链接12"
+ },
+ {
+  "id": "MH50",
+  "status": "可疑",
+  "url": "https://www.maofly.com",
+  "note": "有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)"
+ },
+ {
+  "id": "MH57",
+  "status": "可疑",
+  "url": "http://m.wuqimh.net/",
+  "note": "有内容但无漫画特征(32848字节) / 复核:HTTP 0 无内容"
+ },
+ {
+  "id": "MH57SERVER",
+  "status": "可疑",
+  "url": "http://imagesold.502215.com",
+  "note": "有内容但无漫画特征(1136字节) / 复核:无漫画特征(1136字节)"
+ },
+ {
+  "id": "MH160",
+  "status": "可用",
+  "url": "https://www.mh160mh.com",
+  "note": "漫画特征[漫画,韩漫] 链接0"
+ },
+ {
+  "id": "MH517",
+  "status": "可疑",
+  "url": "http://517mh.net/",
+  "note": "响应过短(114)，可能JS跳转或反爬 / 复核:无漫画特征(114字节)"
+ },
+ {
+  "id": "MHLOVE",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "MIGU",
+  "status": "可用",
+  "url": "http://m.migudm.cn/",
+  "note": "漫画特征[动漫] 链接0"
+ },
+ {
+  "id": "OHMANHUA",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "OHMANHUARATELIMIT",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "PUFEI",
+  "status": "可用",
+  "url": "http://m.pufei.cc",
+  "note": "漫画特征[漫画,全集] 链接0"
+ },
+ {
+  "id": "PUFEISERVER",
+  "status": "可疑",
+  "url": "http://res.img.shengda0769.com/",
+  "note": "响应过短(138)，可能JS跳转或反爬 / 复核:HTTP 503 无内容"
+ },
+ {
+  "id": "QIMANWU",
+  "status": "可疑",
+  "url": "https://cn.zhuzhumh.com",
+  "note": "有内容但无漫画特征(2096字节) / 复核:无漫画特征(2096字节)"
+ },
+ {
+  "id": "QIMIAOMH",
+  "status": "可疑",
+  "url": "https://www.qimiaomh.com",
+  "note": "有内容但无漫画特征(5548字节) / 复核:无漫画特征(5548字节)"
+ },
+ {
+  "id": "TENCENT",
+  "status": "可用",
+  "url": "http://ac.qq.com",
+  "note": "漫画特征[漫画,动漫] 链接85"
+ },
+ {
+  "id": "TENCENTM",
+  "status": "可用",
+  "url": "https://m.ac.qq.com",
+  "note": "漫画特征[漫画,动漫] 链接85"
+ },
+ {
+  "id": "U17",
+  "status": "可用",
+  "url": "http://www.u17.com",
+  "note": "漫画特征[漫画,动漫] 链接0"
+ },
+ {
+  "id": "WEBTOON",
+  "status": "可用",
+  "url": "https://m.webtoons.com",
+  "note": "漫画特征[webtoon] 链接0"
+ },
+ {
+  "id": "WEBTOONDONGMANMANHUA",
+  "status": "可用",
+  "url": "https://www.dongmanmanhua.cn",
+  "note": "漫画特征[漫画,manhua] 链接0"
+ },
+ {
+  "id": "YKMH",
+  "status": "可用",
+  "url": "https://m.ykmh.net/",
+  "note": "漫画特征[漫画,连载] 链接60"
+ },
+ {
+  "id": "YKMH_SERVER",
+  "status": "可疑",
+  "url": "http://js.haotuyk.top",
+  "note": "有内容但无漫画特征(1158字节) / 复核:无漫画特征(1158字节)"
+ },
+ {
+  "id": "YYLS",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "KUAIKANMANHUA",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "KUAIKANMANHUASERVER",
+  "status": "不可用",
+  "url": "https://api.kkmh.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "HHAAZZ",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "HHAAZZ_SW",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "JOYHENTAI",
+  "status": "可疑",
+  "url": "",
+  "note": ""
+ },
+ {
+  "id": "BAOZIMH",
+  "status": "不可用",
+  "url": "https://cn.baozimhcn.com",
+  "note": "HTTP 403 / 无响应"
+ },
+ {
+  "id": "YIMMH",
+  "status": "不可用",
+  "url": "https://www.yimmh.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "DUMH",
+  "status": "可疑",
+  "url": "https://m.7stary.com",
+  "note": "有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)"
+ },
+ {
+  "id": "FEIXUEMH",
+  "status": "可疑",
+  "url": "https://www.feixuemh.com",
+  "note": "响应过短(421)，可能JS跳转或反爬 / 复核:无漫画特征(421字节)"
+ },
+ {
+  "id": "IQIYI",
+  "status": "不可用",
+  "url": "https://bud.iqiyi.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "BOLEFU",
+  "status": "可疑",
+  "url": "http://www.mxqf.com",
+  "note": "响应过短(114)，可能JS跳转或反爬 / 复核:HTTP 0 无内容"
+ },
+ {
+  "id": "ZERO",
+  "status": "可疑",
+  "url": "https://www.zerobywdlss.com",
+  "note": "有内容但无漫画特征(5556字节) / 复核:无漫画特征(5556字节)"
+ },
+ {
+  "id": "BaoziManHua",
+  "status": "不可用",
+  "url": "https://cn.baozimhcn.com",
+  "note": "HTTP 403 / 无响应"
+ },
+ {
+  "id": "CoCoManHua",
+  "status": "可用",
+  "url": "https://www.colamanga.com",
+  "note": "漫画特征[漫画,comic] 链接72"
+ },
+ {
+  "id": "YiManHua",
+  "status": "不可用",
+  "url": "https://www.yimmh.com",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "MangaBZManHua",
+  "status": "不可用",
+  "url": "https://mangabz.com/",
+  "note": "HTTP 502 / 无响应"
+ },
+ {
+  "id": "YouKuManHua",
+  "status": "可用",
+  "url": "https://m.ykmh.net",
+  "note": "漫画特征[漫画,连载] 链接60"
+ },
+ {
+  "id": "XinXinManHua",
+  "status": "可疑",
+  "url": "https://so.77mh.nl",
+  "note": "有内容但无漫画特征(5760字节) / 复核:无漫画特征(5760字节)"
+ },
+ {
+  "id": "ShouJiManHua",
+  "status": "不可用",
+  "url": "http://www.gmanhua.com",
+  "note": "变质为: 赌博"
+ },
+ {
+  "id": "BaiManGu",
+  "status": "可疑",
+  "url": "https://cn.zhuzhumh.com",
+  "note": "有内容但无漫画特征(2096字节) / 复核:无漫画特征(2096字节)"
+ },
+ {
+  "id": "ManHuaCat",
+  "status": "可疑",
+  "url": "https://www.maofly.com",
+  "note": "有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)"
+ },
+ {
+  "id": "PuFeiManHua",
+  "status": "可用",
+  "url": "http://m.pufei.cc",
+  "note": "漫画特征[漫画,全集] 链接0"
+ },
+ {
+  "id": "DongManZhiJia",
+  "status": "不可用",
+  "url": "https://m.dmzj.com",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "BoLeFu",
+  "status": "可疑",
+  "url": "http://www.mxqf.com",
+  "note": "响应过短(114)，可能JS跳转或反爬 / 复核:HTTP 0 无内容"
+ },
+ {
+  "id": "ManHuaTai",
+  "status": "可用",
+  "url": "https://www.kanman.com",
+  "note": "漫画特征[漫画,连载] 链接1"
+ },
+ {
+  "id": "DuManHua",
+  "status": "可疑",
+  "url": "https://m.7stary.com",
+  "note": "有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)"
+ },
+ {
+  "id": "GuFengManHua",
+  "status": "可疑",
+  "url": "https://www.gufengmh9.com",
+  "note": "响应过短(278)，可能JS跳转或反爬 / 复核:无漫画特征(278字节)"
+ },
+ {
+  "id": "GuFengWang",
+  "status": "可用",
+  "url": "https://gufengmanhua.cn",
+  "note": "漫画特征[漫画,连载] 链接0"
+ },
+ {
+  "id": "DongManWu",
+  "status": "可用",
+  "url": "https://m.dm5.com",
+  "note": "漫画特征[漫画,动漫] 链接115"
+ },
+ {
+  "id": "HaoManSix",
+  "status": "可用",
+  "url": "https://m.baozimh.one",
+  "note": "漫画特征[章節,國漫] 链接60"
+ },
+ {
+  "id": "HaoManEight",
+  "status": "可用",
+  "url": "https://godamh.com",
+  "note": "漫画特征[漫画,連載] 链接51"
+ },
+ {
+  "id": "CopyManHua",
+  "status": "不可用",
+  "url": "https://www.mangacopy.com",
+  "note": "HTTP 0 / 无响应"
+ },
+ {
+  "id": "backup_update",
+  "status": "不可用",
+  "url": "https://raw.githubusercontent.com/haleydu-test/cimocUpdate/main/sourceBaseUrl.json",
+  "note": "HTTP 404 / 无响应"
+ },
+ {
+  "id": "update_backup_my",
+  "status": "不可用",
+  "url": "http://www.cimoc.top/cimoc/sourc/master/raw/sourceBaseUrl.json",
+  "note": "HTTP 404 / 无响应"
+ }
+]

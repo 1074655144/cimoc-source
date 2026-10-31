@@ -22,14 +22,52 @@ https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.json
 
 仓库地址：https://github.com/1074655144/cimoc-source
 
+## 该导入哪个
+
+| 如果你想 | 导入这个 | 图源数 |
+| --- | --- | --- |
+| **要"每个源都能用"** | `sourceBaseUrl.verified.json` | **47** |
+| 要覆盖广、能容忍部分源失效 | `sourceBaseUrl.json` | 141 |
+| 要和官方原版结构完全一致 | `sourceBaseUrl.full.json` | 155 |
+
+`verified` 版是逐个抓取页面内容验证过的：只保留确实返回漫画内容的站点，
+剔除了打不开的、变质成赌博/广告页的、以及返回空壳跳转页的域名。
+
 ## 文件说明
 
 | 文件 | 说明 |
 | --- | --- |
-| `sourceBaseUrl.json` | **推荐导入**。修复域名 + 移除已彻底废弃的图源，141 个图源 |
+| `sourceBaseUrl.verified.json` | **精选可用版**。逐个源抓取页面验证过，47 个 |
+| `sourceBaseUrl.json` | 修复版。修复域名 + 移除已彻底废弃的图源，141 个 |
 | `sourceBaseUrl.full.json` | 完整版。仅替换失效域名，未删除任何图源，155 个 |
+| `source_status.json` | **每个源能不能用**的逐条清单（可用/可疑/不可用 + 原因） |
 | `fix_report.json` | 修复明细：每个字段的旧值/新值，以及未能修复的清单 |
 | `removed_sources.json` | 被移除的图源及其原 URL（含完整节点，便于日后恢复） |
+
+## 已验证的可用图源（47 个）
+
+BILIMANHUA、DUMANWU、DUMANWUORG、TTKANMANHUA、YYMANHUA、MANHUAYU、RUMANHUA、
+HAODUOMAN、DASHUMANHUA、YOUMANHUAWU、DM5、DongManWu、MANHUATAI、ManHuaTai、
+MANHUATAIPIC、U17、WEBTOON、WEBTOONDONGMANMANHUA、MIGU、TENCENT、TENCENTM、
+IKANMAN、BAOZIV2、HaoManSix、CCTUKU、CoCoManHua、GODAMH、HaoManEight、
+BODONGMH、HAOMAN6、HAOMAN8、BMG、BOLEMH、DMZJFIX、GuFengWang、LAIMH、
+MANHUADB、MANHUAWU、MANMANMANHUA、MH160、MH160CC、PUFEI、PUFEIMH、PuFeiManHua、
+VOMIC2、YKMH、YouKuManHua
+
+## 已知失效的图源
+
+**域名彻底连不上**：DMZJ 系列（动漫之家）、BAOZIMH / BaoziManHua（包子）、
+COPYMH / CopyManHua（拷贝）、CHUIXUE（吹雪）、YIMMH / YiManHua（一米）、
+MANGABZ、MANHUA90、MITUI、XMANHUA、YEMANMH、KOMIIC、BIQUGE、MYCOMIC、ANIMX2
+
+**域名已变质**：SHOUJIMH / ShouJiManHua（gmanhua.com 变成赌博站）、
+GoDaMH（godamanga.art 跳到 urldance 停放页）
+
+**返回同一套空壳跳转页**（已不再是漫画站）：
+DUMH / DuManHua、MH50 / ManHuaCat、QIMIAO / QIMIAOMH、SUMANKU、ZERO、YOUDM
+
+> 注：探测从我所在网络发起，部分站点存在反爬/限流，实际结果可能随网络与
+> 时间段波动。`source_status.json` 里有每个源的具体判定依据。
 
 ## 修复方法
 

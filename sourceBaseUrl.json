@@ -15,7 +15,7 @@
   "baseUrl": "https://www.dumanwu.org"
  },
  "QIMANHUA": {
-  "baseUrl": "https://www.qimanwu.org"
+  "baseUrl": "https://www.qiman6.com"
  },
  "TTKANMANHUA": {
   "baseUrl": "https://www.ttkmh.com",
@@ -88,7 +88,7 @@
   "serverUrl": "https://api-get-v2.mgsearcher.com"
  },
  "GoDaMH": {
-  "baseUrl": "https://cn.godamanga.art"
+  "baseUrl": "https://www.godamanga.com"
  },
  "WNACG": {
   "updateUrl": "https://stevenyomi.github.io/source-domains/wnacg.txt"
@@ -497,7 +497,7 @@
  "HOTMANGA": "",
  "HOTMANGASERVER": "",
  "IKANMAN": "https://www.manhuagui.cc",
- "IKANMANTW": "https://tw.manhuagui.com",
+ "IKANMANTW": "https://www.manhuagui.cc",
  "IKANMANSERVER": "https://i.hamreus.com",
  "JMTT": "",
  "BASEURLHLV2": {
