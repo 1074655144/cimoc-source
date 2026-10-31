@@ -1,0 +1,195 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<!--__PLACEHOLDER__-->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cimoc 图源状态清单</title><style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+margin:0;padding:24px;background:#f6f7f9;color:#1f2328;line-height:1.6}
+h1{font-size:20px;margin:0 0 4px}
+.sub{color:#656d76;font-size:13px;margin-bottom:18px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:#fff;border:1px solid #d8dee4;border-radius:8px;padding:10px 16px;font-size:13px}
+.stat b{font-size:18px;margin-right:6px}
+.filters{margin-bottom:14px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{background:#fff;border:1px solid #d8dee4;border-radius:6px;padding:6px 14px;cursor:pointer;font-size:13px;color:#1f2328}
+button.on{background:#0969da;color:#fff;border-color:#0969da}
+input{padding:6px 12px;border:1px solid #d8dee4;border-radius:6px;font-size:13px;min-width:220px}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #d8dee4;border-radius:8px;overflow:hidden;font-size:13px}
+th{background:#f0f2f4;text-align:left;padding:10px 12px;font-weight:600;border-bottom:1px solid #d8dee4}
+td{padding:8px 12px;border-bottom:1px solid #eef0f2;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.id{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;white-space:nowrap}
+.url{color:#0969da;word-break:break-all;font-size:12px;max-width:280px}
+.note{color:#656d76;font-size:12px}
+.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;white-space:nowrap}
+.tag.ok{background:#dafbe1;color:#1a7f37}
+.tag.warn{background:#fff8c5;color:#9a6700}
+.tag.bad{background:#ffebe9;color:#cf222e}
+tr.bad{background:#fffafa}
+.hide{display:none}
+</style></head><body>
+<h1>Cimoc 图源状态清单</h1>
+<div class="sub">逐个抓取页面内容验证 · 共 141 个图源 · 生成于本地探测（结果随网络与时段可能波动）</div>
+<div class="stats">
+<div class="stat"><b style="color:#1a7f37">47</b>可用</div>
+<div class="stat"><b style="color:#9a6700">57</b>可疑</div>
+<div class="stat"><b style="color:#cf222e">37</b>不可用</div>
+</div>
+<div class="filters">
+<button class="on" data-f="all">全部</button>
+<button data-f="ok">可用</button>
+<button data-f="warn">可疑</button>
+<button data-f="bad">不可用</button>
+<input id="q" placeholder="搜索图源 ID 或域名...">
+</div>
+<table><thead><tr><th>图源 ID</th><th>状态</th><th>地址</th><th>判定依据</th></tr></thead>
+<tbody><tr class="ok"><td class="id">BAOZIV2</td><td><span class="tag ok">可用</span></td><td class="url">https://m.baozimh.one</td><td class="note">漫画特征[章節,國漫] 链接60</td></tr>
+<tr class="ok"><td class="id">BILIMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">https://www.bilimanga.net</td><td class="note">漫画特征[連載,國漫] 链接0</td></tr>
+<tr class="ok"><td class="id">BMG</td><td><span class="tag ok">可用</span></td><td class="url">https://www.liumanhua.com</td><td class="note">漫画特征[漫画,comic] 链接0</td></tr>
+<tr class="ok"><td class="id">BODONGMH</td><td><span class="tag ok">可用</span></td><td class="url">https://ikmmh.com</td><td class="note">漫画特征[漫画,在线阅读] 链接17</td></tr>
+<tr class="ok"><td class="id">BOLEMH</td><td><span class="tag ok">可用</span></td><td class="url">https://bbboy.cc</td><td class="note">漫画特征[漫画,韩漫] 链接0</td></tr>
+<tr class="ok"><td class="id">CCTUKU</td><td><span class="tag ok">可用</span></td><td class="url">https://www.tuku.cc</td><td class="note">漫画特征[漫画,连载] 链接172</td></tr>
+<tr class="ok"><td class="id">CoCoManHua</td><td><span class="tag ok">可用</span></td><td class="url">https://www.colamanga.com</td><td class="note">漫画特征[漫画,comic] 链接72</td></tr>
+<tr class="ok"><td class="id">DASHUMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">https://www.dashumanhua.com</td><td class="note">漫画特征[漫画,连载] 链接157</td></tr>
+<tr class="ok"><td class="id">DM5</td><td><span class="tag ok">可用</span></td><td class="url">https://m.dm5.com</td><td class="note">漫画特征[漫画,动漫] 链接115</td></tr>
+<tr class="ok"><td class="id">DMZJFIX</td><td><span class="tag ok">可用</span></td><td class="url">https://www.wmh1234.com</td><td class="note">漫画特征[漫画,动漫] 链接22</td></tr>
+<tr class="ok"><td class="id">DUMANWU</td><td><span class="tag ok">可用</span></td><td class="url">http://dumanwu1.com</td><td class="note">漫画特征[漫画] 链接0</td></tr>
+<tr class="ok"><td class="id">DUMANWUORG</td><td><span class="tag ok">可用</span></td><td class="url">https://www.dumanwu.org</td><td class="note">漫画特征[漫画,韩漫] 链接159</td></tr>
+<tr class="ok"><td class="id">DongManWu</td><td><span class="tag ok">可用</span></td><td class="url">https://m.dm5.com</td><td class="note">漫画特征[漫画,动漫] 链接115</td></tr>
+<tr class="ok"><td class="id">GODAMH</td><td><span class="tag ok">可用</span></td><td class="url">https://m.g-mh.org</td><td class="note">漫画特征[漫画,连载] 链接51</td></tr>
+<tr class="ok"><td class="id">GuFengWang</td><td><span class="tag ok">可用</span></td><td class="url">https://gufengmanhua.cn</td><td class="note">漫画特征[漫画,连载] 链接0</td></tr>
+<tr class="ok"><td class="id">HAODUOMAN</td><td><span class="tag ok">可用</span></td><td class="url">https://www.haoduoman.com</td><td class="note">漫画特征[漫画,动漫] 链接172</td></tr>
+<tr class="ok"><td class="id">HAOMAN6</td><td><span class="tag ok">可用</span></td><td class="url">https://www.manben.com</td><td class="note">漫画特征[漫画,动漫] 链接163</td></tr>
+<tr class="ok"><td class="id">HAOMAN8</td><td><span class="tag ok">可用</span></td><td class="url">https://m.zaimanhua.com</td><td class="note">漫画特征[漫画,动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">HaoManEight</td><td><span class="tag ok">可用</span></td><td class="url">https://godamh.com</td><td class="note">漫画特征[漫画,連載] 链接51</td></tr>
+<tr class="ok"><td class="id">HaoManSix</td><td><span class="tag ok">可用</span></td><td class="url">https://m.baozimh.one</td><td class="note">漫画特征[章節,國漫] 链接60</td></tr>
+<tr class="ok"><td class="id">IKANMAN</td><td><span class="tag ok">可用</span></td><td class="url">https://www.manhuagui.cc</td><td class="note">漫画特征[漫画,动漫] 链接42</td></tr>
+<tr class="ok"><td class="id">LAIMH</td><td><span class="tag ok">可用</span></td><td class="url">https://www.laimanhua88.com</td><td class="note">漫画特征[manhua] 链接0</td></tr>
+<tr class="ok"><td class="id">MANHUADB</td><td><span class="tag ok">可用</span></td><td class="url">https://www.manhua666.cc</td><td class="note">漫画特征[漫画,动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">MANHUATAI</td><td><span class="tag ok">可用</span></td><td class="url">https://www.kanman.com</td><td class="note">漫画特征[漫画,连载] 链接1</td></tr>
+<tr class="ok"><td class="id">MANHUATAIPIC</td><td><span class="tag ok">可用</span></td><td class="url">https://m.kanman.com</td><td class="note">漫画特征[漫画,manhua] 链接12</td></tr>
+<tr class="ok"><td class="id">MANHUAWU</td><td><span class="tag ok">可用</span></td><td class="url">https://www.mhua5.com</td><td class="note">漫画特征[漫画,动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">MANHUAYU</td><td><span class="tag ok">可用</span></td><td class="url">https://www.manhuayu88.com</td><td class="note">漫画特征[漫画,动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">MANMANMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">https://www.manmanapp.com</td><td class="note">漫画特征[漫画,动漫] 链接146</td></tr>
+<tr class="ok"><td class="id">MH160</td><td><span class="tag ok">可用</span></td><td class="url">https://www.mh160mh.com</td><td class="note">漫画特征[漫画,韩漫] 链接0</td></tr>
+<tr class="ok"><td class="id">MH160CC</td><td><span class="tag ok">可用</span></td><td class="url">https://www.mh160mh.com</td><td class="note">漫画特征[漫画,韩漫] 链接0</td></tr>
+<tr class="ok"><td class="id">MIGU</td><td><span class="tag ok">可用</span></td><td class="url">http://m.migudm.cn/</td><td class="note">漫画特征[动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">ManHuaTai</td><td><span class="tag ok">可用</span></td><td class="url">https://www.kanman.com</td><td class="note">漫画特征[漫画,连载] 链接1</td></tr>
+<tr class="ok"><td class="id">PUFEI</td><td><span class="tag ok">可用</span></td><td class="url">http://m.pufei.cc</td><td class="note">漫画特征[漫画,全集] 链接0</td></tr>
+<tr class="ok"><td class="id">PUFEIMH</td><td><span class="tag ok">可用</span></td><td class="url">http://m.pufei.cc</td><td class="note">漫画特征[漫画,全集] 链接0</td></tr>
+<tr class="ok"><td class="id">PuFeiManHua</td><td><span class="tag ok">可用</span></td><td class="url">http://m.pufei.cc</td><td class="note">漫画特征[漫画,全集] 链接0</td></tr>
+<tr class="ok"><td class="id">RUMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">http://rumanhua2.com</td><td class="note">漫画特征[漫画,manhua] 链接0</td></tr>
+<tr class="ok"><td class="id">TENCENT</td><td><span class="tag ok">可用</span></td><td class="url">http://ac.qq.com</td><td class="note">漫画特征[漫画,动漫] 链接85</td></tr>
+<tr class="ok"><td class="id">TENCENTM</td><td><span class="tag ok">可用</span></td><td class="url">https://m.ac.qq.com</td><td class="note">漫画特征[漫画,动漫] 链接85</td></tr>
+<tr class="ok"><td class="id">TTKANMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">https://www.ttkmh.com</td><td class="note">漫画特征[漫画,manhua] 链接40</td></tr>
+<tr class="ok"><td class="id">U17</td><td><span class="tag ok">可用</span></td><td class="url">http://www.u17.com</td><td class="note">漫画特征[漫画,动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">VOMIC2</td><td><span class="tag ok">可用</span></td><td class="url">http://www.vomicmh.com</td><td class="note">漫画特征[漫画,连载] 链接0</td></tr>
+<tr class="ok"><td class="id">WEBTOON</td><td><span class="tag ok">可用</span></td><td class="url">https://m.webtoons.com</td><td class="note">漫画特征[webtoon] 链接0</td></tr>
+<tr class="ok"><td class="id">WEBTOONDONGMANMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">https://www.dongmanmanhua.cn</td><td class="note">漫画特征[漫画,manhua] 链接0</td></tr>
+<tr class="ok"><td class="id">YKMH</td><td><span class="tag ok">可用</span></td><td class="url">https://m.ykmh.net/</td><td class="note">漫画特征[漫画,连载] 链接60</td></tr>
+<tr class="ok"><td class="id">YOUMANHUAWU</td><td><span class="tag ok">可用</span></td><td class="url">https://umh5.com</td><td class="note">漫画特征[漫画,动漫] 链接0</td></tr>
+<tr class="ok"><td class="id">YYMANHUA</td><td><span class="tag ok">可用</span></td><td class="url">https://www.yymanhua.com</td><td class="note">漫画特征[日漫,manga] 链接5</td></tr>
+<tr class="ok"><td class="id">YouKuManHua</td><td><span class="tag ok">可用</span></td><td class="url">https://m.ykmh.net</td><td class="note">漫画特征[漫画,连载] 链接60</td></tr>
+<tr class="warn"><td class="id">BAINIAN</td><td><span class="tag warn">可疑</span></td><td class="url">https://m.bnman.net</td><td class="note">响应过短(473)，可能JS跳转或反爬 / 复核:无漫画特征(473字节)</td></tr>
+<tr class="warn"><td class="id">BAINIANMH</td><td><span class="tag warn">可疑</span></td><td class="url">https://m.bnman.net</td><td class="note">响应过短(473)，可能JS跳转或反爬 / 复核:无漫画特征(473字节)</td></tr>
+<tr class="warn"><td class="id">BASEURLHLV2</td><td><span class="tag warn">可疑</span></td><td class="url">PyhLDL/o0X0uZzEBUQQsjNDF3D+J6d33YRxE1rMnpuw=</td><td class="note"></td></tr>
+<tr class="warn"><td class="id">BASEURLJMV2</td><td><span class="tag warn">可疑</span></td><td class="url">LpwHMKgVX8quodKDHQMzfoqqDCYkBUDAFhDFDN3Jg+s=</td><td class="note"></td></tr>
+<tr class="warn"><td class="id">BOLEFU</td><td><span class="tag warn">可疑</span></td><td class="url">http://www.mxqf.com</td><td class="note">响应过短(114)，可能JS跳转或反爬 / 复核:HTTP 0 无内容</td></tr>
+<tr class="warn"><td class="id">BaiManGu</td><td><span class="tag warn">可疑</span></td><td class="url">https://cn.zhuzhumh.com</td><td class="note">有内容但无漫画特征(2096字节) / 复核:无漫画特征(2096字节)</td></tr>
+<tr class="warn"><td class="id">BoLeFu</td><td><span class="tag warn">可疑</span></td><td class="url">http://www.mxqf.com</td><td class="note">响应过短(114)，可能JS跳转或反爬 / 复核:HTTP 0 无内容</td></tr>
+<tr class="warn"><td class="id">CARTOONMAD</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.cartoonmad.com</td><td class="note">响应过短(114)，可能JS跳转或反爬 / 复核:HTTP 0 无内容</td></tr>
+<tr class="warn"><td class="id">DUMH</td><td><span class="tag warn">可疑</span></td><td class="url">https://m.7stary.com</td><td class="note">有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)</td></tr>
+<tr class="warn"><td class="id">DuManHua</td><td><span class="tag warn">可疑</span></td><td class="url">https://m.7stary.com</td><td class="note">有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)</td></tr>
+<tr class="warn"><td class="id">EHENTAI</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">EHENTAIINFOCOVER</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">EHENTAISERVER1</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">EHENTAISERVER2</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">FEIXUEMH</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.feixuemh.com</td><td class="note">响应过短(421)，可能JS跳转或反爬 / 复核:无漫画特征(421字节)</td></tr>
+<tr class="warn"><td class="id">GUFENG</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.gufengmh9.com</td><td class="note">响应过短(278)，可能JS跳转或反爬 / 复核:无漫画特征(278字节)</td></tr>
+<tr class="warn"><td class="id">GUILUOLIMANHUA</td><td><span class="tag warn">可疑</span></td><td class="url">http://m.ymgjmh.com</td><td class="note">有内容但无漫画特征(31406字节) / 复核:无漫画特征(31406字节)</td></tr>
+<tr class="warn"><td class="id">GUOGUOMH</td><td><span class="tag warn">可疑</span></td><td class="url">https://d9zfb53b.lstool.xyz</td><td class="note">响应过短(77)，可能JS跳转或反爬 / 复核:无漫画特征(77字节)</td></tr>
+<tr class="warn"><td class="id">GuFengManHua</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.gufengmh9.com</td><td class="note">响应过短(278)，可能JS跳转或反爬 / 复核:无漫画特征(278字节)</td></tr>
+<tr class="warn"><td class="id">HHAAZZ</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">HHAAZZ_SW</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">HHXXEE</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">HOTMANGA</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">HOTMANGASERVER</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">JMTT</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">JOYHENTAI</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">KUAIKANMANHUA</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">KUMANWU</td><td><span class="tag warn">可疑</span></td><td class="url">http://www.kumwu2.com</td><td class="note">有内容但无漫画特征(2366字节) / 复核:无漫画特征(2366字节)</td></tr>
+<tr class="warn"><td class="id">KUMANXIONG</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">KUMANXIONGV2</td><td><span class="tag warn">可疑</span></td><td class="url">http://www.ziyuanxue.cn/Cimoc/hmx/api/queryHmxComic</td><td class="note">响应过短(58)，可能JS跳转或反爬 / 复核:无漫画特征(58字节)</td></tr>
+<tr class="warn"><td class="id">MANGAKAKALOT</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">MANGANEL</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">MANHUA36</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">MH50</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.maofly.com</td><td class="note">有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)</td></tr>
+<tr class="warn"><td class="id">MH517</td><td><span class="tag warn">可疑</span></td><td class="url">http://517mh.net/</td><td class="note">响应过短(114)，可能JS跳转或反爬 / 复核:无漫画特征(114字节)</td></tr>
+<tr class="warn"><td class="id">MH57</td><td><span class="tag warn">可疑</span></td><td class="url">http://m.wuqimh.net/</td><td class="note">有内容但无漫画特征(32848字节) / 复核:HTTP 0 无内容</td></tr>
+<tr class="warn"><td class="id">MH57SERVER</td><td><span class="tag warn">可疑</span></td><td class="url">http://imagesold.502215.com</td><td class="note">有内容但无漫画特征(1136字节) / 复核:无漫画特征(1136字节)</td></tr>
+<tr class="warn"><td class="id">MHLOVE</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">MKZHAN</td><td><span class="tag warn">可疑</span></td><td class="url">https://comic.mkzhan.com</td><td class="note">响应过短(35)，可能JS跳转或反爬 / 复核:无漫画特征(35字节)</td></tr>
+<tr class="warn"><td class="id">ManHuaCat</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.maofly.com</td><td class="note">有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)</td></tr>
+<tr class="warn"><td class="id">OHMANHUA</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">OHMANHUARATELIMIT</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">PUFEISERVER</td><td><span class="tag warn">可疑</span></td><td class="url">http://res.img.shengda0769.com/</td><td class="note">响应过短(138)，可能JS跳转或反爬 / 复核:HTTP 503 无内容</td></tr>
+<tr class="warn"><td class="id">QIMANWU</td><td><span class="tag warn">可疑</span></td><td class="url">https://cn.zhuzhumh.com</td><td class="note">有内容但无漫画特征(2096字节) / 复核:无漫画特征(2096字节)</td></tr>
+<tr class="warn"><td class="id">QIMIAO</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.qimiaomh.com</td><td class="note">有内容但无漫画特征(5548字节) / 复核:无漫画特征(5548字节)</td></tr>
+<tr class="warn"><td class="id">QIMIAOMH</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.qimiaomh.com</td><td class="note">有内容但无漫画特征(5548字节) / 复核:无漫画特征(5548字节)</td></tr>
+<tr class="warn"><td class="id">QIXIMH</td><td><span class="tag warn">可疑</span></td><td class="url">http://qiximh4.com</td><td class="note">响应过短(472)，可能JS跳转或反爬 / 复核:无漫画特征(472字节)</td></tr>
+<tr class="warn"><td class="id">SUMANKU</td><td><span class="tag warn">可疑</span></td><td class="url">http://www.sumanku.com</td><td class="note">有内容但无漫画特征(5544字节) / 复核:无漫画特征(5544字节)</td></tr>
+<tr class="warn"><td class="id">TUHAOMHV2</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.toho123.com</td><td class="note">响应过短(477)，可能JS跳转或反爬 / 复核:无漫画特征(477字节)</td></tr>
+<tr class="warn"><td class="id">VOMIC</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">WNACG</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">XINXINMH</td><td><span class="tag warn">可疑</span></td><td class="url">https://so.77mh.nl</td><td class="note">有内容但无漫画特征(5760字节) / 复核:无漫画特征(5760字节)</td></tr>
+<tr class="warn"><td class="id">XinXinManHua</td><td><span class="tag warn">可疑</span></td><td class="url">https://so.77mh.nl</td><td class="note">有内容但无漫画特征(5760字节) / 复核:无漫画特征(5760字节)</td></tr>
+<tr class="warn"><td class="id">YKMH_SERVER</td><td><span class="tag warn">可疑</span></td><td class="url">http://js.haotuyk.top</td><td class="note">有内容但无漫画特征(1158字节) / 复核:无漫画特征(1158字节)</td></tr>
+<tr class="warn"><td class="id">YOUDM</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.udm123.com</td><td class="note">有内容但无漫画特征(5540字节) / 复核:无漫画特征(5540字节)</td></tr>
+<tr class="warn"><td class="id">YYLS</td><td><span class="tag warn">可疑</span></td><td class="url"></td><td class="note"></td></tr>
+<tr class="warn"><td class="id">ZERO</td><td><span class="tag warn">可疑</span></td><td class="url">https://www.zerobywdlss.com</td><td class="note">有内容但无漫画特征(5556字节) / 复核:无漫画特征(5556字节)</td></tr>
+<tr class="bad"><td class="id">ANIMX2</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.2animx.com</td><td class="note">HTTP 403 / 无响应</td></tr>
+<tr class="bad"><td class="id">BAOZIMH</td><td><span class="tag bad">不可用</span></td><td class="url">https://cn.baozimhcn.com</td><td class="note">HTTP 403 / 无响应</td></tr>
+<tr class="bad"><td class="id">BIQUGE</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.biqu8.xyz</td><td class="note">HTTP 0 / 无响应</td></tr>
+<tr class="bad"><td class="id">BaoziManHua</td><td><span class="tag bad">不可用</span></td><td class="url">https://cn.baozimhcn.com</td><td class="note">HTTP 403 / 无响应</td></tr>
+<tr class="bad"><td class="id">CHUIXUE</td><td><span class="tag bad">不可用</span></td><td class="url">http://www.chuixue.net</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">CHUIXUEMH</td><td><span class="tag bad">不可用</span></td><td class="url">http://www.chuixue.net</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">CHUIXUESERVER</td><td><span class="tag bad">不可用</span></td><td class="url">https://chuixue2.xiluweb.com/</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">COPYMH</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.copy20.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">COPYMHSERVER</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.copy20.com/api/kb/web/searchbg/comics</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">CopyManHua</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.mangacopy.com</td><td class="note">HTTP 0 / 无响应</td></tr>
+<tr class="bad"><td class="id">DMZJ</td><td><span class="tag bad">不可用</span></td><td class="url">http://m.dmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">DMZJFIXSERVER</td><td><span class="tag bad">不可用</span></td><td class="url">http://api.dmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">DMZJSEARCH</td><td><span class="tag bad">不可用</span></td><td class="url">http://s.acg.dmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">DMZJSERVER</td><td><span class="tag bad">不可用</span></td><td class="url">http://v3api.dmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">DMZJV2</td><td><span class="tag bad">不可用</span></td><td class="url">https://m.dmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">DMZJV2SERVER</td><td><span class="tag bad">不可用</span></td><td class="url">https://v3api.idmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">DongManZhiJia</td><td><span class="tag bad">不可用</span></td><td class="url">https://m.dmzj.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">GoDaMH</td><td><span class="tag bad">不可用</span></td><td class="url">https://cn.godamanga.art</td><td class="note">变质为: urldance  [已换新域名]</td></tr>
+<tr class="bad"><td class="id">IKANMANSERVER</td><td><span class="tag bad">不可用</span></td><td class="url">https://i.hamreus.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">IKANMANTW</td><td><span class="tag bad">不可用</span></td><td class="url">https://tw.manhuagui.com</td><td class="note">HTTP 502 / 无响应  [已换新域名]</td></tr>
+<tr class="bad"><td class="id">IQIYI</td><td><span class="tag bad">不可用</span></td><td class="url">https://bud.iqiyi.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">KOMIIC</td><td><span class="tag bad">不可用</span></td><td class="url">https://komiic.com</td><td class="note">HTTP 0 / 无响应</td></tr>
+<tr class="bad"><td class="id">KUAIKANMANHUASERVER</td><td><span class="tag bad">不可用</span></td><td class="url">https://api.kkmh.com</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">MANGABZ</td><td><span class="tag bad">不可用</span></td><td class="url">http://mangabz.com/</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">MANHUA90</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.90mh.org</td><td class="note">HTTP 0 / 无响应</td></tr>
+<tr class="bad"><td class="id">MITUI</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.imitui.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">MYCOMIC</td><td><span class="tag bad">不可用</span></td><td class="url">https://mycomic.com</td><td class="note">HTTP 403 / 无响应</td></tr>
+<tr class="bad"><td class="id">MangaBZManHua</td><td><span class="tag bad">不可用</span></td><td class="url">https://mangabz.com/</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">QIMANHUA</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.qimanwu.org</td><td class="note">HTTP 0 / 无响应  [已换新域名]</td></tr>
+<tr class="bad"><td class="id">SHOUJIMH</td><td><span class="tag bad">不可用</span></td><td class="url">http://www.gmanhua.com</td><td class="note">变质为: 赌博</td></tr>
+<tr class="bad"><td class="id">ShouJiManHua</td><td><span class="tag bad">不可用</span></td><td class="url">http://www.gmanhua.com</td><td class="note">变质为: 赌博</td></tr>
+<tr class="bad"><td class="id">XMANHUA</td><td><span class="tag bad">不可用</span></td><td class="url">https://xmanhua.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">YEMANMH</td><td><span class="tag bad">不可用</span></td><td class="url">https://m.mhkami.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">YIMMH</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.yimmh.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">YiManHua</td><td><span class="tag bad">不可用</span></td><td class="url">https://www.yimmh.com</td><td class="note">HTTP 502 / 无响应</td></tr>
+<tr class="bad"><td class="id">backup_update</td><td><span class="tag bad">不可用</span></td><td class="url">https://raw.githubusercontent.com/haleydu-test/cimocUpdate/main/sourceBaseUrl.json</td><td class="note">HTTP 404 / 无响应</td></tr>
+<tr class="bad"><td class="id">update_backup_my</td><td><span class="tag bad">不可用</span></td><td class="url">http://www.cimoc.top/cimoc/sourc/master/raw/sourceBaseUrl.json</td><td class="note">HTTP 404 / 无响应</td></tr></tbody></table>
+<script>
+var bs=document.querySelectorAll('.filters button'), q=document.getElementById('q');
+function apply(){var f=document.querySelector('.filters button.on').dataset.f,kw=q.value.toLowerCase();
+document.querySelectorAll('tbody tr').forEach(function(r){
+var okF=(f==='all')||r.classList.contains(f);
+var okK=!kw||r.textContent.toLowerCase().indexOf(kw)>=0;
+r.classList.toggle('hide',!(okF&&okK));});}
+bs.forEach(function(b){b.onclick=function(){bs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');apply();}});
+q.oninput=apply;
+</script></body></html>
