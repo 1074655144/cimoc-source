@@ -8,16 +8,23 @@ Cimoc 漫画 App 的图源订阅文件 `sourceBaseUrl.json`。
 
 ## 导入地址
 
-在 Cimoc 的「导入图源」中填入以下任一地址：
+### 推荐：精选可用版（47 个源，逐个验证过能打开漫画）
 
 ```
-https://raw.githubusercontent.com/1074655144/cimoc-source/main/sourceBaseUrl.json
+https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.verified.json
 ```
 
-如果 GitHub raw 访问不畅，改用 jsDelivr 镜像：
+### 覆盖更广的修复版（141 个源，含部分未逐个验证的）
 
 ```
 https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.json
+```
+
+上面两个走的是 jsDelivr 镜像，国内通常可直接访问。若 jsDelivr 也不通，
+把前缀换成 raw 试试：
+
+```
+https://raw.githubusercontent.com/1074655144/cimoc-source/main/sourceBaseUrl.verified.json
 ```
 
 仓库地址：https://github.com/1074655144/cimoc-source
@@ -33,6 +40,9 @@ https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.json
 `verified` 版是逐个抓取页面内容验证过的：只保留确实返回漫画内容的站点，
 剔除了打不开的、变质成赌博/广告页的、以及返回空壳跳转页的域名。
 
+想看每个源具体情况，打开 `source_status.html`（141 个源逐条列出状态、
+地址和判定依据，可按状态筛选、按名称搜索）。
+
 ## 文件说明
 
 | 文件 | 说明 |
@@ -40,7 +50,8 @@ https://cdn.jsdelivr.net/gh/1074655144/cimoc-source@main/sourceBaseUrl.json
 | `sourceBaseUrl.verified.json` | **精选可用版**。逐个源抓取页面验证过，47 个 |
 | `sourceBaseUrl.json` | 修复版。修复域名 + 移除已彻底废弃的图源，141 个 |
 | `sourceBaseUrl.full.json` | 完整版。仅替换失效域名，未删除任何图源，155 个 |
-| `source_status.json` | **每个源能不能用**的逐条清单（可用/可疑/不可用 + 原因） |
+| `source_status.html` | **每个源能不能用**的可视化清单（可筛选/搜索，浏览器直接打开） |
+| `source_status.json` | 同上，JSON 格式的原始数据 |
 | `fix_report.json` | 修复明细：每个字段的旧值/新值，以及未能修复的清单 |
 | `removed_sources.json` | 被移除的图源及其原 URL（含完整节点，便于日后恢复） |
 
